@@ -53,3 +53,4 @@ def delete_or_update_student(request , id):
           json.dump(file_data, of)
         return HttpResponse(json.dumps({"message": "student updated successfully"}))
   return HttpResponse(json.dumps({"message": "student not found"}))
+  
